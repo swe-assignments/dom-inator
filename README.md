@@ -55,3 +55,9 @@ You might find [this w3 page](https://www.w3schools.com/jsref/prop_text_value.as
  - [ ] Right now, you can't seen any blocks! That is because the `.css` file for this page hasn't been hooked up! Add the correct thing to the `<head>` of the `block-busters.html` so that the css gets imported and we can see the first block!
  - [ ] See the red block? Write some javascript to create 99 more identical to it (so a total of 100 red blocks). Each block should have a class of `red-block` and an id of `block-i` (where `i` is the number of the block.)
  - [ ] Now write some javascript so that whenever a user's mouse enters a block, it disappears from the page.
+
+## Extension
+
+Now you can dominate the dom, let's make it pretty!
+
+Choose one of the pages and make it look awesome with css :smile:
