@@ -1,0 +1,30 @@
+{
+  "name": "dom-inator",
+  "version": "1.0.0",
+  "description": "## Getting started",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --bail --runInBand --testSequencer=./test/testSequencer.js",
+    "test:all": "jest --runInBand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swe-resources-room/dom-inator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swe-resources-room/dom-inator/issues"
+  },
+  "homepage": "https://github.com/swe-resources-room/dom-inator#readme",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "figlet": "^1.5.2"
+  }
+}
