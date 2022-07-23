@@ -19,9 +19,21 @@ npm run dev
 ```
 to start up the development server.
 
+## Testing
+
+To test locally, you can run
+```
+npm run test
+```
+in your terminal.
+
+When you sync your changes, the same tests will be run on the server and, when they all pass, the assignment will be marked complete.
+
+**Important: don't merge the feedback pull request!**
+
 ## Todo
 
-### Case switcher
+### Case switcher :pencil:
 
  - [x] As you go, edit the `README.md` file. Putting a `x` inside the `[ ]` will mark each task as complete.
  - [ ] Add a `<script>` tag to hook up `case-switcher.html` file with `caseSwitcher.js`. (You need to use relative linking - be aware that the javascript files are in a different folder to the html files.) Make sure you add the `defer` attribute to the `<script>` tag!
@@ -30,13 +42,13 @@ to start up the development server.
 
 (In sarcasm case, the alphabetic letters alternate from lower to uppercase and all space and punctuation is ignored.)
 
-### Chat room
+### Chat room :pencil:
 
  - [ ] Connect `chat-room.html` with `chatRoom.js`
  - [ ] Use javascript to listen for the click event of the `send-btn` - when the button is clicked, the contents of the text input should be appended as a child `<p>` element to the `<section id="chat">` element.
  - [ ] When the message is sent, the text input should be emptied.
 
-### Block busters
+### Block busters :pencil:
 
  - [ ] Connect `block-busters.html` with `block-busters.js`
  - [ ] See the red box? Write some javascript to create 99 more like it (so a total of 100 red boxes). Each box should have a class of `red-box` and an id of `box-i` (where `i` is the number of the box.
