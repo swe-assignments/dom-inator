@@ -23,6 +23,8 @@ You can discuss this assignment on the [discussions tab](https://github.com/swe-
 
 ## Testing
 
+**When testing, your development server must be running on port 3000**
+
 To test locally, you can run
 ```
 npm run test
