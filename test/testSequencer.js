@@ -3,7 +3,9 @@ const figlet = require('figlet')
 const chalk = require('chalk')
 
 const files = [
-  'caseSwitcher'
+  'caseSwitcher',
+  'chatRoom',
+  'blockBusters'
 ]
 
 const sleep = s => new Promise(resolve => setTimeout(resolve, s*1000))
