@@ -1,10 +1,12 @@
+const isCI = !!process.env.CI || process.env.HOME === '/home/runner'
+
 const config = {
   launch: {
-    headless: !!process.env.CI
+    headless: isCI
   }
 }
 
-if (!!process.env.CI) {
+if (isCI) {
   config.server = {
     command: `npm run dev`,
     port: 3000,
