@@ -19,6 +19,8 @@ npm run dev
 ```
 to start up the development server.
 
+You can discuss this assignment on the [discussions tab](https://github.com/swe-resources-room/dom-inator/discussions).
+
 ## Testing
 
 To test locally, you can run
@@ -36,7 +38,7 @@ When you sync your changes, the same tests will be run on the server and, when t
 ### Case switcher :pencil:
 
  - [x] As you go, edit the `README.md` file. Putting a `x` inside the `[ ]` will mark each task as complete.
- - [ ] Add a `<script>` tag to hook up `case-switcher.html` file with `caseSwitcher.js`. (You need to use relative linking - be aware that the javascript files are in a different folder to the html files.) Make sure you add the `defer` attribute to the `<script>` tag!
+ - [ ] Add a `<script>` tag to hook up `case-switcher.html` with `caseSwitcher.js`. (You need to use relative paths - be aware that the javascript files are in a different folder to the html files.) Make sure you add the `defer` attribute to the `<script>` tag!
  - [ ] In the `case-switcher.html` file, add three `<button>`s to this file with ids of `quiet-btn`, `loud-btn` and `sarc-btn`. Don't change the contents of the `<p>` element. (You do not need to use javascript for this.)
  - [ ] Edit the `caseSwitcher.js` to listen for the click event of each button. When `quiet-btn` is clicked, the text in the `<p>` element should be changed to *lowercase*; when `loud-btn` is clicked it should be changed to *UPPERCASE*; when `sarc-btn` is clicked it should be changed to *sArCaSm CaSe*.
 
